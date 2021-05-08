@@ -1,0 +1,167 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon{
+    margin-right: 12pt;
+}
+
+h1 {
+    color:#111;
+    font-size: 48pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarlink{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1565C0;
+    transition: 300ms;
+    padding: 4pt 8pt 4pt 8pt;
+    border-radius: 4pt;
+}
+
+.navbarlink:hover{
+    background-color: #BBDEFB;
+    transition: 300ms;
+}
+
+.navbarlink:active{
+    background-color: #2196F3;
+    transition: 300ms;
+}
+
+.sidelink{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1565C0;
+    transition: 300ms;
+    padding: 2pt 4pt 2pt 4pt;
+    margin-top: 10pt;
+    border-radius: 2pt;
+}
+
+.sidelink:hover{
+    background-color: #BBDEFB;
+    transition: 300ms;
+}
+
+.sidelink:active{
+    background-color: #2196F3;
+    transition: 300ms;
+}
+
+.current_page{
+    background-color: #90CAF9;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1565C0;
+    transition: 300ms;
+    padding: 4pt 8pt 4pt 8pt;
+    border-radius: 4pt;
+}
+
+.current_page:active{
+    background-color: #1565C0;
+    transition: 300ms;
+}
+
+body {
+    width: 960px;
+    margin: 30px auto;
+}
+
+main {
+    display: flex;
+}
+
+.padding_this{
+    margin: 15px;
+}
+
+.logo,
+.konten,
+.sidebar,
+.footer {
+    margin-bottom: 24px;
+    padding: 8px 0;
+    box-shadow: 0pt 2pt 4pt #0003;
+    border-radius: 4pt;
+    transition: 500ms;
+    background-color: white;
+}
+
+.navigasi{
+    margin-bottom: 24px;
+    padding: 8px 0;
+    box-shadow: 0pt 2pt 4pt #0003;
+    border-radius: 4pt;
+    transition: 500ms;
+    background-color: white ;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
+.navigasi:hover{
+    box-shadow: 0pt 4pt 12pt #0004;
+    width: 104%;
+    height: 7%;
+    margin-top: 1%;
+    margin-left: -2%;
+    transition: 500ms;
+}
+
+.search{
+    margin-bottom: 15px;
+    padding: 8px 0;
+    box-shadow: 0pt 2pt 4pt #0003;
+    border-radius: 4pt;
+    transition: 300ms;
+    background-color: white ;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.logo:hover,
+.konten:hover,
+.sidebar:hover,
+.footer:hover {
+    box-shadow: 0pt 4pt 12pt #0004;
+    transition: 500ms;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fff;
+}
+.navigasi {
+    width: 100%;
+    height: 5%;
+
+    text-align: center;
+}
+.konten {
+    width: 100%;
+
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.navigasi ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+.navigasi li{
+    float: left;
+    margin: 0 10px;
+}
